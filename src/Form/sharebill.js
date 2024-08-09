@@ -1,8 +1,8 @@
 function Share (props){
     const usfrs =  [{ id: 1,name:'Lan' }, { id: 2, name: 'Huy' }, { id: 3, name: 'Son' }];
     return ( <div className="bill-splitter">
-
         <form className="form" >
+        <h2>Split bill with</h2>
             <div className="form-group" >
 
             <label className="form-label">Bill value <input className="form-input" type="text" /></label>

@@ -6,7 +6,7 @@ function AddFriend (){
                 <input type="text" />
             </label>
             <br/>
-            <button type="button" onClick={Addfr}>ADD</button>
+            <button className="form-button "  type="button" onClick={Addfr}>ADD</button>
         </form>
     )
 }

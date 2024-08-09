@@ -7,8 +7,8 @@ function FriendItem({ name, imageUrl, balance }) {
           <p>{name}</p>
           <p>{balance}</p>
         </div>
-        <button>Select</button>
-        <button>Close</button>
+        {/* <button>Select</button> */}
+        <button className="form-button">Close</button>
       </div>
     );
   }
