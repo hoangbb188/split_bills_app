@@ -1,6 +1,6 @@
 function AddFriend (){
     return (
-        <form>
+        <form className="form">
             <label>
                 Friend name: 
                 <input type="text" />
