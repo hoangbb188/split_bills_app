@@ -1,0 +1,28 @@
+.app-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: white;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.auth-buttons .login {
+  background-color: #ff7f00; /* Orange */
+}
+
+.auth-buttons .register {
+  background-color: #007bff; /* Blue */
+}
