@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 
-function AddFriendForm() {
+function AddFriendForm(onAddFriend) {
 const [isShowForm,setIsShowForm] = useState(false);
 
 const handleButtonAdd = () => {
   setIsShowForm(!isShowForm)
 }
-
+const [friendImg,setFriendImg] = useState("");
+const [friendURL,setFriendURL] = useState("");
+const friendAdd(friendImg,friendURL);
 
 
   return ( <div>
