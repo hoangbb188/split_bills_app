@@ -15,6 +15,12 @@ function App() {
     },
     { id: 3, name: "Nam", balance: 0, img: "https://i.pravatar.cc/48?img=3" },
   ]);
+  const updateBalance =(id,amount) => {
+    setFriends(friends.map(friend => friend.id===id?{...friend,balance:friend.balance+amount}:friend
+  
+    ))
+  }
+  
   const [selectedFriend, setSelectedFriend] = useState(null);
   const handleSelectFriend = (friend) => {
     setSelectedFriend(friend);
@@ -33,7 +39,7 @@ function App() {
           onSelectFriend={handleSelectFriend}
           onAddFriend={handleAddFriend}
         />
-        <SplitBillForm friend={selectedFriend}/>
+        <SplitBillForm friend={selectedFriend} updateValue={updateBalance}/>
       </div>
     </>
   );

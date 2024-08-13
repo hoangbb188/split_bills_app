@@ -3,6 +3,7 @@ import FriendItem from "./FriendItem";
 import AddFriendForm from "./AddFriendForm";
 function FriendList({ friends , onSelectFriend, onAddFriend }) {
   
+  
   return (
     <div className="friends-list">
       {friends.map((friend) => (
