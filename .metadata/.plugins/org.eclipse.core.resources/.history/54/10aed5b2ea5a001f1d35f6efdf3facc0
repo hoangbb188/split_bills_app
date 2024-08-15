@@ -1,0 +1,5 @@
+spring.application.name=split_bill_4
+server.port=8082
+spring.datasource.url=jdbc:postgresql://localhost:5432/split_bill_4
+spring.datasource.username=postgres
+spring.datasource.password=13213212

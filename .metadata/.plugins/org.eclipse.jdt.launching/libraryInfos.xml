@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="D:\App\Spring_Suite\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre" version="17.0.8.1"/>
+    <libraryInfo home="D:\App\Spring_Suite\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047" version="17.0.8.1"/>
+    <libraryInfo home="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08" version="1.8.0_392">
+        <bootpath>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\resources.jar"/>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\rt.jar"/>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\sunrsasign.jar"/>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\jsse.jar"/>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\jce.jar"/>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\charsets.jar"/>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\jfr.jar"/>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="D:\App\Java\OpenJDK8U-jdk_x64_windows_hotspot_8u392b08 1\jdk8u392-b08\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+</libraryInfos>

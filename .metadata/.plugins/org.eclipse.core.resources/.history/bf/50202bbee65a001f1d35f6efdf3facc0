@@ -1,0 +1,5 @@
+package com.example.split_bill_4.entity;
+
+public class User {
+
+}
