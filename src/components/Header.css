@@ -26,3 +26,10 @@
 .auth-buttons .register {
   background-color: #007bff; /* Blue */
 }
+.app-header {
+  position: relative;
+}
+
+.auth-buttons {
+  position: relative;
+}

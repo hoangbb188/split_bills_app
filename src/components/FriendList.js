@@ -1,15 +1,28 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import FriendItem from "./FriendItem";
 import AddFriendForm from "./AddFriendForm";
-function FriendList({ friends , onSelectFriend, onAddFriend }) {
-  
-  
+
+
+function FriendList({
+  friends,
+  selectedFriend,
+  onSelectFriend,
+  onDeselectFriend,
+  onAddFriend,
+}
+) {
   return (
     <div className="friends-list">
       {friends.map((friend) => (
-        <FriendItem key={friend.id} friend={friend} onSelect={onSelectFriend}/>
+        <FriendItem
+        key={friend.id}
+          friend={friend}
+          isSelected={selectedFriend?.id === friend.id}
+          onSelect={onSelectFriend}
+          onDeselect={onDeselectFriend}
+        />
       ))}
-      <AddFriendForm onAddFriend = {onAddFriend} />
+      <AddFriendForm onAddFriend={onAddFriend} />
     </div>
   );
 }
