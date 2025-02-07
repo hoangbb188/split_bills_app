@@ -1,0 +1,144 @@
+.container {
+  background-color: #f9f9f9;
+  margin: 0px 25%;
+  width: 60%;
+  height: 50%;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.friends-list {
+  width: 50%;
+  align-items: center;
+}
+
+.friend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 100%;
+}
+.friend-item.active {
+  background-color: #fff2e6;
+}
+.friend-item img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 48px;
+  height: 48px;
+}
+
+.friend-info {
+  flex-grow: 1;
+}
+
+.friend-name {
+  margin: 0;
+  font-weight: bold;
+}
+
+.balance {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.owe {
+  color: red;
+}
+.owes {
+  color: green;
+}
+.even {
+  color: gray;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: #f0a500;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.btn.select {
+  background-color: #ffab00;
+  width: 15%;
+}
+
+.add-friend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  background-color: #fff2e6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.add-friend input {
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  float: right;
+}
+.add-friend button {
+  width: 50%;
+  margin-left: 50%;
+}
+.add-friend img {
+  margin-right: 10px;
+  width: 30px;
+  vertical-align: middle;
+}
+.split-bill {
+  width: 40%;
+  background-color: #fff2e6;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20%;
+}
+
+.split-bill label {
+  font-weight: bold;
+}
+
+.split-bill input,
+.split-bill select {
+  width: 30%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  float: right;
+}
+
+.btn.split {
+  margin-left: 70%;
+  width: 30%;
+  background-color: #ffab00;
+}
+.btn.close {
+  margin-top: 20px;
+}
+.add_friend_option {
+  margin-top: 20px;
+  background-color: #ffab00;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+.container.active {}
